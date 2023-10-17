@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container pt-2">
+            <a class="navbar-brand fw-bolder  d-flex justify-content-between " href="#home"> <img
+                    src="https://routeweather.netlify.app/images/logo@2x.png" alt="" class="logo mm" width="64"
+                    height="42">
+                <div class="logo p-3 ">
+                    <h1 class="site-title fa-xs">Weather</h1>
+                    <small class="site-description fa-xs">tagline goes here</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto me-3">
+                    <a class="nav-link  m-4" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link m-4" href="#about">News</a>
+                    <a class="nav-link m-4" href="#services">Live cameras</a>
+                    <a class="nav-link m-4" href="#Portfolio">Photos</a>
+                    <a class="nav-link m-4" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="forecast-table py-5">
+        <div class="hero my-5" data-bg-image="images/banner.png">
+            <div class="container">
+                <form class="find-location d-flex ">
+                    <input type="input" class="form-control me-3 " placeholder="Find your location..." id="search">
+                    <input type="button" class="btn" value="Find" id="submit">
+                </form>
+    
+            </div>
+        </div>
+        <div class="container" id="demo">
+            <div class="forecast-container d-flex" id="forecast">
+                
+                <div class="forecast main ">
+                    <div class="forecast-header d-flex justify-content-between align-items-center">
+                        <div class="day">Thursday</div>
+                        <div class="history">9August</div>
+                    </div> 
+                    <div class="forecast-content d-flex flex-wrap justify-content-center align-items-center ">
+                        <div class="inner ">
+                            <div class="location"> Cairo</div>
+                            <div class="degree f">39.2<sup>o</sup>C</div>
+                            <small>24.2<sup>o</sup></small>
+                            <div class="forecast-icon">
+                                <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                            </div>
+                        </div>
+                        <div class="additional mx-auto ">
+                            <div class="inner-additional mx-auto ">
+                                <span class="mx-1"><img src="https://routeweather.netlify.app/images/icon-umberella@2x.png" alt="" width="21" height="21">20%</span>
+                                <span class="mx-1"><img src="https://routeweather.netlify.app/images/icon-wind@2x.png" alt="" width="23" height="21">18km/h</span>
+                                <span class="mx-1"><img src="https://routeweather.netlify.app/images/icon-compass@2x.png" alt="" width="21" height="21">East</span>
+                            </div>
+
+                            </div>
+                    </div>
+
+                </div>
+                <div class="forecast">
+                    <div class="forecast-header d-flex justify-content-between align-items-center forecast-header-h">
+                        <div class="day">Thursday</div>
+                    </div> <!-- .forecast-header -->
+                    <div class="forecast-content d-flex justify-content-center align-items-center forecast-content-c">
+                        <div class="inner">
+                            <div class="forecast-icon">
+                                <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                            </div>
+                            <div class="degree">39.2<sup>o</sup>C</div>
+                            <small>24.2<sup>o</sup></small>
+                            <div class="custom">Sunny</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="forecast">
+                    <div class="forecast-header d-flex justify-content-between align-items-center">
+                        <div class="day">Thursday</div>
+                    </div> <!-- .forecast-header -->
+                    <div class="forecast-content d-flex justify-content-center align-items-center">
+                        <div class="inner">
+                            <div class="forecast-icon">
+                                <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                            </div>
+                            <div class="degree">39.2<sup>o</sup>C</div>
+                            <small>24.2<sup>o</sup></small>
+                            <div class="custom">Sunny</div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-md-8">
+                    <form action="#" class="subscribe-form d-lg-flex">
+                        <input type="text" class="form-control me-3" placeholder="Enter your email to subscribe...">
+                        <input type="submit" class="btn" value="Subscribe">
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="social-links">
+                        <a href="#" ><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                        <a href="#" ><i class="fa-brands fa-twitter fa-2xl"></i></a>
+                        <a href="#" ><i class="fa-brands fa-google-plus fa-2xl"></i></a>
+                        <a href="#" ><i class="fa-brands fa-pinterest fa-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="my-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+
+</body>
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
